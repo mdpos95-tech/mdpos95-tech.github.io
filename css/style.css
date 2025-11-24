@@ -1,0 +1,31 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f5f5f5;
+color: #222;
+line-height: 1.5;
+
+}
+
+.btn {
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid #111;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-solid {
+    background: #f5f5f5;
+    color: #111;
+    border: 1px solid #111;
+}
