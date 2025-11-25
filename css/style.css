@@ -75,6 +75,48 @@ html {
     gap: 0.6rem;
 }
 
+.card-icon {
+    font-size: 1.4rem;
+}
+
+.card-link-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.card h2 {
+    font-size: 1.1rem;
+}
+
+.card ul {
+    padding-left: 1.1rem;
+}
+
+
+.card-read-more {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.card-read-more :hover{
+    text-decoration: underline;
+}
+
+.site-footer{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #555;
+    padding: 1.5rem 1rem 2rem;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.site-footer a{
+    color: #0066cc;
+}
 
 
 body {
@@ -103,4 +145,11 @@ line-height: 1.5;
     border: 1px solid #111;
 }
 
-
+@media (max-width:800px)
+{
+    .site-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .card-grid {grid-template-columns: 1fr;}
+}
