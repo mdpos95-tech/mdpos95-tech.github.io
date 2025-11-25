@@ -57,6 +57,44 @@ html {
     justify-content: center;
 }
 
+.hero {
+    text-align: center;
+    padding: 2.5rem 1rem 1.5rem;
+}
+
+.hero-side{
+    width: 150px;
+    opacity: 0.9;
+}
+
+
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p{
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (max-width:650px){
+    .hero-images {flex-direction: column;}
+}
+.hero-side{width: 120px;}
+
+.center-logo {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.center-logo img {
+    width: 120px;
+    height: auto;
+}
+
 .card-grid {
     max-width: 1000px;
     margin: 0 auto 3rem;
