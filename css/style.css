@@ -57,6 +57,23 @@ html {
     justify-content: center;
 }
 
+.card-grid {
+    max-width: 1000px;
+    margin: 0 auto 3rem;
+    padding: 0 1rem 2rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #f8f8f8;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
 
 
 
