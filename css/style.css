@@ -39,14 +39,6 @@ html {
     gap: 0.5rem;
 }
 
-.btn {
-    padding: 0.4rem;
-    border-radius: 999px;
-    border: 1px solid #111;
-    font-size: 0.85rem;
-    cursor: pointer;
-}
-
 
 .btn-solid {
     background: #111;
@@ -55,6 +47,9 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-color: #f5cb28;  
+    color: #111111;
+    border-color: #f5cb28;
 }
 
 .hero {
@@ -146,7 +141,7 @@ html {
     text-decoration: none;
 }
 
-.card-read-more :hover {
+.card-read-more:hover {
     text-decoration: underline;
 }
 
@@ -174,22 +169,35 @@ body {
 }
 
 .btn {
-    padding: 0.4rem 0.9rem;
-    border-radius: 999px;
-    border: 1px solid #111;
-    font-size: 0.85rem;
-    cursor: pointer;
+    display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.btn-solid {
+    background: #111;
+    color: #fff;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
+    background-color: #f5cb28;  
+    color: #111111;
+    border-color: #f5cb28;
 }
 
-.btn-solid {
-    background: #f5f5f5;
-    color: #111;
-    border: 1px solid #111;
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 @media (max-width:900px) {
@@ -224,12 +232,6 @@ body {
     color: #ffffff;
 }
 
-.btn-solid {
-    background-color: #f5cb28;
-    color: #111111;
-    border-color: #f5cb28;
-}
-
 .card {
     border-top: 4px solid #da291c;
 }
@@ -250,7 +252,7 @@ body {
 }
 
 .newsletter-box h3 {
-   margin: (0,0,0.7rem 0);
+   margin: 0,0,0.7rem 0;
 }
 
 .newsletter-box form {
@@ -274,3 +276,27 @@ body {
     white-space: nowrap;
 }
 
+.subscribe-control {
+  position: relative;
+  display: inline-block;
+}
+
+.subscribe-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 2.3rem;  
+  background-image: none;
+  background-color: #f5cb28;
+}
+
+.subscribe-control::after {
+  content: "▾";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 0.8rem;
+  color: #111;            
+}
