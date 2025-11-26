@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manchester United Fan HUB</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="site-header">
 
         <div class="logo-box">
             <img src="images/Manchester-United-logo.png" alt="Manchester-United-logo">
         </div>
-       
+
         <nav class="main-nav">
             <a href="season.html">Season</a>
             <a href="history.html">History</a>
             <a href="squad.html">Squad</a>
         </nav>
         <div class="header-buttons">
-            <button class="btn btn-outline">
-                Subscibe
-            </button>
-            <a class="btn btn-solid" href="mailto:mdpos95@gmail.com">Contact</a>
+            <div class="subscribe-control">
+        <label for="newsletter" class="sr-only"></label>
+        <select id="newsletter" name="newsletter" class="btn btn-gold subscribe-select">
+            <option value="">Subscribe ▾</option>
+            <option value="weekly">Weekly newsletter</option>
+            <option value="matchday">Matchday alerts</option>
+            <option value="monthly">Monthly roundup</option>
+        </select>
+    </div>
+            <a href="mailto:mdpos95@gmail.com" class="btn btn-solid">Contact</a>
         </div>
-
+        <div class="newsletter-box">
+            <h3>Newsletter Signup</h3>
+            <form>
+                <label for="email" class="sr-only">Email</label>
+                <input id="email" type="email" placeholder="name@example.com">
+                <button type="button" class="btn btn-gold btn-small">Join</button>
+            </form>
+        </div>
     </header>
     <main>
         <section class="hero">
             <div class="hero-images">
                 <img src="images/Ronaldo logo.png" alt="Player Silhouette" class="hero-side">
-               
-                <img src="images/rooney logo.png" alt="Player Silhouette"
-                class="hero-side">
+
+                <img src="images/rooney logo.png" alt="Player Silhouette" class="hero-side">
             </div>
             <h1>Manchester United Fan HUB</h1>
             <p>Home to everything Manchester United</p>
-        </section>  
+        </section>
         <section class="card-grid">
-        <article class="card">
+            <article class="card">
                 <div class="card-icon">⚽</div>
                 <H2>Season Tracker</H2>
                 <ul>
@@ -66,7 +80,7 @@
                 </ul>
                 <a href="squad.html" class="card-read-more">Read more</a>
             </article>
-            </section>
+        </section>
     </main>
     <footer class="site-footer">
         <p>
@@ -79,9 +93,11 @@
             © 2025 Manchester United Fan HUB - Student project
         </p>
         <p>
-            This website is for educational purposes only and is not officially affiliated with Manchester United Football Club
+            This website is for educational purposes only and is not officially affiliated with Manchester United
+            Football Club
         </p>
 
     </footer>
 </body>
+
 </html>
