@@ -373,3 +373,36 @@ body {
     font-weight: 700;
     background: rgba(0, 0, 0, 0.75);
 }
+
+.history-page {
+    color: #e3e3e3;
+}
+
+.history-intro {
+    margin-bottom: 1.5rem;
+}
+
+.history-intro h1{
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.history-intro p{
+    margin-bottom: 0.6rem;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 0.2fr);
+    gap: 1.5rem;
+    align-items: flex-start;
+
+}
+
+.history-card {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 18px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+}
