@@ -344,3 +344,19 @@ body {
     font-weight: bold;
     margin-right: 0.5rem;
 }
+
+.season-section{
+    color: #e4e4e4;
+}
+
+.fixtures-table {
+    width: 100%;
+    max-width: 900px;
+    margin: 1.5rem auto 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 0.9rem;
+}
