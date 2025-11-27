@@ -47,7 +47,7 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5cb28;  
+    background-color: #f5cb28;
     color: #111111;
     border-color: #f5cb28;
 }
@@ -105,10 +105,10 @@ html {
 }
 
 .card {
-    color: #111;
-    background-color: #c6c6c6;
+    color: #fff;
+    background-color: #1b1b1b;
     border-radius: 8px;
-    border: 1px solid #f8f8f8;
+    border: 1px solid #ffffff;
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -158,28 +158,41 @@ html {
     color: #0066cc;
 }
 
+.content-wrapper{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e9e9e9;
     color: #222;
     line-height: 1.5;
+    background-image: url(/images/old-trafford.avif) ;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 
 }
 
 .btn {
     display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.45rem 1.3rem;
-  border-radius: 999px;
-  border: 1px solid transparent;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  line-height: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45rem 1.3rem;
+    border-radius: 999px;
+    border: 2px solid transparent;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
 }
 
 .btn-solid {
@@ -189,15 +202,16 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5cb28;  
-    color: #111111;
+    background-color: #f5cb28;
+    border: 1px solid transparent;
     border-color: #f5cb28;
+    color: #111111;
 }
 
 .header-buttons {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 @media (max-width:900px) {
@@ -232,14 +246,10 @@ body {
     color: #ffffff;
 }
 
-.card {
-    border-top: 4px solid #da291c;
-}
-
 .newsletter-box {
     position: fixed;
     right: 20px;
-    left:auto;
+    left: auto;
     top: 140px;
     max-width: 280px;
     background: #1b1b1b;
@@ -252,7 +262,7 @@ body {
 }
 
 .newsletter-box h3 {
-   margin: 0,0,0.7rem 0;
+    margin: 0, 0, 0.7rem 0;
 }
 
 .newsletter-box form {
@@ -277,26 +287,27 @@ body {
 }
 
 .subscribe-control {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .subscribe-select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  padding-right: 2.3rem;  
-  background-image: none;
-  background-color: #f5cb28;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 2.3rem;
+    background-image: none;
+    background-color: #f5cb28;
 }
 
 .subscribe-control::after {
-  content: "▾";
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-  font-size: 0.8rem;
-  color: #111;            
+    content: "▾";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 0.8rem;
+    color: #111;
 }
+
