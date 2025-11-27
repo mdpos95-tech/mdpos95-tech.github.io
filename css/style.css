@@ -406,3 +406,19 @@ body {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(4px);
 }
+
+.manager-drop summary {
+    cursor: pointer;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.manager-drop summary:hover {
+    color: #ffcc33;
+    text-shadow: 0 0 6px rgba(255, 200, 50, 0.5);
+}
+
