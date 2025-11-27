@@ -325,3 +325,22 @@ body {
     color: #111;
 }
 
+.result-win {
+    background-color: #2edc1e;
+}
+
+.result-draw {
+    background-color: #f39135;
+}
+
+.result-loss {
+    background-color: #da291c;
+}
+
+.result-team {
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
