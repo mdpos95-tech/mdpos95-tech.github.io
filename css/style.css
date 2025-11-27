@@ -359,4 +359,17 @@ body {
     border-radius: 12px;
     overflow: hidden;
     font-size: 0.9rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.fixtures-table th,
+.fixtures-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fixtures-table th{
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.75);
 }
