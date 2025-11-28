@@ -422,3 +422,30 @@ body {
     text-shadow: 0 0 6px rgba(255, 200, 50, 0.5);
 }
 
+
+.squad-section {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    color: #f5f5f5;
+}
+
+.squad-section h1 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.squad-section h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.squad-intro {
+    margin-bottom: 0.75rem;
+    max-width: 60rem;
+}
+
