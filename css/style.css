@@ -530,3 +530,10 @@ body {
     font-size: 0.9rem;
 }
 
+.manager-box {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 8px;
+}
