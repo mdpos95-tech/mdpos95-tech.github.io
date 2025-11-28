@@ -500,3 +500,33 @@ body {
 .position-tag.mid {background: #00b341;}
 .position-tag.fwd {background: #0077ff;}
 
+.legends-icon {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.legend-card {
+    background: rgba(10, 10, 10, 0.8);
+    border-radius: 18px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.legend-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+
+.legend-years {
+    font-size: 0.8rem;
+    color: #ffce31;
+    margin-bottom: 0.7rem;
+}
+
+.legend-card ul {
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
