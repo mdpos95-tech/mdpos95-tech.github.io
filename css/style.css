@@ -562,70 +562,43 @@ body {
     border: 0;
 }
 
-@media (max-width: 768px)
-    {
-     .content-wrapper {
-        padding: 1rem;
-        width: 100%;
-    }
+@media (max-width: 768px) {
 
-    h1, h2 {
-        font-size: 1.4rem;
-        text-align: center;
-    }
+  .squad-section .squad-table {
+    width: 100%;
+    font-size: 0.8rem;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 
-    p {
-        font-size: 1rem;
-        text-align: center;
-    }
+  .squad-section th,
+  .squad-section td {
+    padding: 0.35rem 0.5rem;
+  }
 
-    table {
-        font-size: 0.85rem;
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
+  .results-list li {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    margin-bottom: 0.7rem;
+  }
 
-    thead th {
-        font-size: 0.9rem;
-    }
+  .position-tag {
+    padding: 2px 6px;
+    font-size: 0.75rem;
+  }
 
-    td, th {
-        padding: 0.5rem;
-    }
+  .fixtures-table {
+    width: 100%;
+    font-size: 0.8rem;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 
-    .results-list li {
-        font-size: 0.95rem;
-        line-height: 1.3;
-        margin-bottom: 0.8rem;
-        text-align: left;
-    }
-
-    .position-tag {
-        padding: 2px 6px;
-        font-size: 0.8rem;
-    }
-
-    .squad-section table td,
-    .squad-section table th {
-        padding: 0.4rem;
-    }
-
-    .history-card,
-    .season-section,
-    .squad-section {
-        width: 100%;
-        margin: 1rem 0;
-        padding: 1.2rem;
-    }
-
-    details summary {
-        font-size: 1.1rem;
-    }
-
-    .newsletter-box {
-        width: 90%;
-        left: 50%;
-        
-    }
+  .fixtures-table th,
+  .fixtures-table td {
+    padding: 0.35rem 0.5rem;
+  }
 }
+
