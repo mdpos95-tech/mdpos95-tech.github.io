@@ -564,7 +564,7 @@ body {
 
 @media (max-width: 768px) {
 
-  .squad-section .squad-table {
+ .squad-table {
     width: 100%;
     font-size: 0.8rem;
     display: block;
