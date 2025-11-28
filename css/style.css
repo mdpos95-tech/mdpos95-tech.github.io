@@ -572,8 +572,8 @@ body {
     white-space: nowrap;
   }
 
-  .squad-section th,
-  .squad-section td {
+  .squad-table th,
+  .squad-table td {
     padding: 0.35rem 0.5rem;
   }
 
