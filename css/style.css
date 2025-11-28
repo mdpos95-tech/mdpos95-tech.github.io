@@ -561,3 +561,71 @@ body {
     white-space: nowrap;
     border: 0;
 }
+
+@media (max-width: 768px)
+    {
+     .content-wrapper {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    table {
+        font-size: 0.85rem;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    thead th {
+        font-size: 0.9rem;
+    }
+
+    td, th {
+        padding: 0.5rem;
+    }
+
+    .results-list li {
+        font-size: 0.95rem;
+        line-height: 1.3;
+        margin-bottom: 0.8rem;
+        text-align: left;
+    }
+
+    .position-tag {
+        padding: 2px 6px;
+        font-size: 0.8rem;
+    }
+
+    .squad-section table td,
+    .squad-section table th {
+        padding: 0.4rem;
+    }
+
+    .history-card,
+    .season-section,
+    .squad-section {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1.2rem;
+    }
+
+    details summary {
+        font-size: 1.1rem;
+    }
+
+    .newsletter-box {
+        width: 90%;
+        left: 50%;
+        
+    }
+}
